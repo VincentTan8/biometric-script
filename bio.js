@@ -2,7 +2,7 @@ const fs = require('fs')
 const ZKLib = require('./node_modules/node-zklib/zklib')
 
 class Bio {
-    async test(){
+    async getTransactions(){
 
         console.log("Initializing...")
 
@@ -31,7 +31,7 @@ class Bio {
         console.log("Total users: " + users.data.length)
 
         // Get all logs in the machine 
-        // Currently, there is no filter to take data, it just takes all !!
+        // Currently, there is no filter to take data, it just takes all !! (which is sad)
         const logs = await zkInstance.getAttendances()
         console.log("Total Attendances: "+ logs.data.length);
 
@@ -40,7 +40,7 @@ class Bio {
         //     // console.log(attendances.data);
         // })
 
-        // YOu can also read realtime log by getRealTimelogs function
+        // You can also read realtime log by getRealTimelogs function (which doesnt work)
 
         // console.log('check users', users)
 
@@ -55,13 +55,13 @@ class Bio {
         // zkInstances.clearAttendanceLog();
         
         // Get the device time
-        // const getTime = await zkInstance.getTime();
-        // console.log(getTime);
+        const getTime = await zkInstance.getTime();
+        console.log("Time now is: " + getTime.toString());
 
 
         //write to JSON file
         this.toJSON(logs.data, 'logs.json')
-        // toJSON(users.data, 'users.json')
+        this.toJSON(users.data, 'users.json')
 
         // Disconnect the machine ( don't do this when you need realtime update :))) 
         if (zkInstance) {
@@ -88,13 +88,25 @@ class Bio {
             console.log("JSON data successfully written");
         });
     }
-}
 
-//this gets transactions from the chosen device and writes it into a json file
-// const biometric = new Bio()
-// biometric.test().catch(err => {
-//     // Handle any uncaught errors from the test function
-//     console.error('Unhandled error in test function:', err);
-// })
+    makeReadable(data, userData) {
+        data.forEach(log => {
+            const user = userData.find(user => user.userId === log.deviceUserId)
+            log.userName = user.name //make new field
+
+            //remove just for clarity, idk what the hr will need from these anyway
+            delete log.userSn
+            delete log.ip
+            delete log.deviceUserId
+        })
+        return data;
+    }
+
+    getFirstAndLastLogPerDay(data) {
+        //try with one user
+
+        return;
+    }
+}
 
 module.exports = Bio 
