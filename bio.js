@@ -15,7 +15,6 @@ class Bio {
             // Create socket to machine 
             console.log("Connecting...")
             await zkInstance.createSocket()
-            console.log("Connected!")
 
             // Get general info like logCapacity, user counts, logs count
             // It's really useful to check the status of device 
@@ -35,14 +34,7 @@ class Bio {
         const logs = await zkInstance.getAttendances()
         console.log("Total Attendances: "+ logs.data.length);
 
-        // const attendances = await zkInstance.getAttendances((percent, total)=>{
-        //     // this callbacks take params is the percent of data downloaded and total data need to download 
-        //     // console.log(attendances.data);
-        // })
-
         // You can also read realtime log by getRealTimelogs function (which doesnt work)
-
-        // console.log('check users', users)
 
         // zkInstance.getRealTimeLogs((data)=>{
         //     // do something when some checkin 
@@ -58,7 +50,6 @@ class Bio {
         const getTime = await zkInstance.getTime();
         console.log("Time now is: " + getTime.toString());
 
-
         //write to JSON file
         this.toJSON(logs.data, 'logs.json')
         this.toJSON(users.data, 'users.json')
@@ -72,7 +63,6 @@ class Bio {
                 console.log('Error closing the socket:', error);
             }
         }
-
     }
 
     toJSON (data, filename){
@@ -92,20 +82,54 @@ class Bio {
     makeReadable(data, userData) {
         data.forEach(log => {
             const user = userData.find(user => user.userId === log.deviceUserId)
-            log.userName = user.name //make new field
+            if(user)
+                log.userName = user.name //make new field
+            else
+                log.userName = "UserID Not Found: " + log.deviceUserId
 
-            //remove just for clarity, idk what the hr will need from these anyway
+            //removed for clarity, idk what the hr will need from these anyway
+            //all they need is the timestamp and name I think
             delete log.userSn
             delete log.ip
-            delete log.deviceUserId
         })
         return data;
     }
 
-    getFirstAndLastLogPerDay(data) {
-        //try with one user
+    getFirstAndLastLogPerDay(data, startDate) {
+        //data is logs of one user
+        const filteredLogs = []
+        let firstAndLast = []
+        let currentDate = " "
+        data.forEach(log => {
+            const date = new Date(log.recordTime)
+            //+1 on month since month is 0 index
+            const dateText = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate()
+            //if date is after the start date
+            if(date >= startDate) {
+                //if date is equal to the date we are checking
+                if(dateText === currentDate) {
+                    if(firstAndLast.length < 2) {
+                        firstAndLast.push(log)
+                    } else {
+                        //replace the potential last entry of the day
+                        firstAndLast[1] = log
+                    }
+                } else {
+                    if(firstAndLast[1]){
+                        //last log of the day
+                        filteredLogs.push(firstAndLast[1])
+                    } 
+                    //first log of the day
+                    filteredLogs.push(log)
 
-        return;
+                    //set to the current day log
+                    currentDate = dateText
+                    firstAndLast = []
+                    firstAndLast.push(log)
+                }
+            }
+        })
+        return filteredLogs;
     }
 }
 

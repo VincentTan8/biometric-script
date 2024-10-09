@@ -1,0 +1,52 @@
+[
+  {
+    "deviceUserId": "1008",
+    "recordTime": "Wed Oct 09 2024 08:01:30 GMT+0800 (Philippine Standard Time)",
+    "userName": "CESS"
+  },
+  {
+    "deviceUserId": "1009",
+    "recordTime": "Wed Oct 09 2024 07:42:23 GMT+0800 (Philippine Standard Time)",
+    "userName": "JOHN"
+  },
+  {
+    "deviceUserId": "1011",
+    "recordTime": "Wed Oct 09 2024 08:47:19 GMT+0800 (Philippine Standard Time)",
+    "userName": "DEL"
+  },
+  {
+    "deviceUserId": "5001",
+    "recordTime": "Wed Oct 09 2024 09:12:02 GMT+0800 (Philippine Standard Time)",
+    "userName": "CRISTINE"
+  },
+  {
+    "deviceUserId": "5004",
+    "recordTime": "Wed Oct 09 2024 07:01:09 GMT+0800 (Philippine Standard Time)",
+    "userName": "RODEL"
+  },
+  {
+    "deviceUserId": "5008",
+    "recordTime": "Wed Oct 09 2024 07:34:28 GMT+0800 (Philippine Standard Time)",
+    "userName": "MILES"
+  },
+  {
+    "deviceUserId": "5010",
+    "recordTime": "Wed Oct 09 2024 06:57:26 GMT+0800 (Philippine Standard Time)",
+    "userName": "CORTEJO"
+  },
+  {
+    "deviceUserId": "5011",
+    "recordTime": "Wed Oct 09 2024 12:18:31 GMT+0800 (Philippine Standard Time)",
+    "userName": "VINCENT"
+  },
+  {
+    "deviceUserId": "5012",
+    "recordTime": "Wed Oct 09 2024 06:42:58 GMT+0800 (Philippine Standard Time)",
+    "userName": "HARRY"
+  },
+  {
+    "deviceUserId": "5013",
+    "recordTime": "Wed Oct 09 2024 07:28:46 GMT+0800 (Philippine Standard Time)",
+    "userName": "IRA"
+  }
+]
