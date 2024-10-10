@@ -87,10 +87,12 @@ class Bio {
             else
                 log.userName = "UserID Not Found: " + log.deviceUserId
 
+            log.timeStamp = log.recordTime
             //removed for clarity, idk what the hr will need from these anyway
             //all they need is the timestamp and name I think
             delete log.userSn
             delete log.ip
+            delete log.recordTime
         })
         return data;
     }

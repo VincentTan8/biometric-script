@@ -28,7 +28,7 @@ async function run() {
 
     //get first and last log of each user
     let oseaFAL = []
-    let startDate = new Date("10/01/2024") // MM/DD/YYYY
+    let startDate = new Date("10/07/2024") // MM/DD/YYYY
     oseaIDs.forEach(id => {
         const userLogs = oseaLogs.filter(log => log.deviceUserId === id)
         const firstAndLast = biometric.getFirstAndLastLogPerDay(userLogs, startDate)
