@@ -39,8 +39,6 @@ class Bio {
     }
     
     async getTransactions(logsFileName) {
-        await this.connect()
-
         // Get all logs in the machine 
         // Currently, there is no filter to take data, it just takes all !! (which is sad)
         const logs = await zkInstance.getAttendances()
@@ -64,28 +62,20 @@ class Bio {
 
         //write to JSON file
         this.toJSON(logs.data, logsFileName)
-        
-        await this.disconnect()
     }
 
-    //not yet done
     async getUsers(usersFileName) {
-        await this.connect()
-
         // Get users in machine to reference ids in logs
         let users = await zkInstance.getUsers()
-        console.log("Total users: " + users.data.length)
         while(users.data.length != info.userCounts){
             console.log("User count mismatch")
             console.log("Retrying...")
             users = await zkInstance.getUsers()
-            console.log("Total users: " + users.data.length)
         }
+        console.log("Total users: " + users.data.length)
 
         //write to JSON file
         this.toJSON(users.data, usersFileName)
-
-        await this.disconnect()
     }
 
     async addUser() {
@@ -168,6 +158,11 @@ class Bio {
                 }
             }
         })
+        //edge case: if no log exists for the next day, last log of the day wont be pushed so we do this
+        //take the last log into filteredLogs
+        if(firstAndLast[1]) 
+            filteredLogs.push(firstAndLast[1])
+
         return filteredLogs;
     }
 }
