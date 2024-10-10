@@ -5,21 +5,29 @@ const XLSX = require('xlsx');
 let biometric = new Bio()
 
 async function run() {
+    const logsFileName = 'logs.json'
+    const usersFileName = 'users.json'
+
     //this gets transactions from the chosen device and writes it into a json file
-    // await biometric.getTransactions().catch(err => {
-    //     // Handle any uncaught errors from the test function
-    //     console.error('Unhandled error in test function:', err);
+    await biometric.getTransactions(logsFileName).catch(err => {
+        // Handle any uncaught errors from the test function
+        console.error('Unhandled error in getTransactions:', err);
+    })
+    // await biometric.getUsers(usersFileName).catch(err => {
+    //     console.error('Unhandled error in getUsers:', err)
     // })
+
     //read after getting transactions
-    const attendanceContent = await fs.readFile('logs.json', 'utf-8')
+    const attendanceContent = await fs.readFile(logsFileName, 'utf-8')
     const attendanceJson = JSON.parse(attendanceContent)
-    const userContent = await fs.readFile('users.json', 'utf-8')
+    const userContent = await fs.readFile(usersFileName, 'utf-8')
     const userJson = JSON.parse(userContent)
 
     //OSEA ids
     //Cess 1008, John 1009, Rendel 1011, Cristine 5001, Rodel 5004, Miles 5008, Jicoy 5010, Vincent 5011, Harry 5012, Ira 5013 
     const oseaIDs = ["1008", "1009", "1011", "5001", "5004", "5008", "5010", "5011", "5012", "5013"]
     // const oseaMembers = ["Cess", "John", "Rendel", "Cristine", "Rodel", "Miles", "Jicoy", "Vincent", "Harry", "Ira"]
+    //this renames some of the fields and deletes unneeded fields
     const oseaLogs = biometric.makeReadable(
         attendanceJson.filter(log => oseaIDs.includes(log.deviceUserId)),
         userJson
@@ -47,6 +55,7 @@ async function run() {
 
     // Write the workbook to an Excel file
     XLSX.writeFile(workbook, 'osea.xlsx');
+    console.log("osea.xlsx successfully written")
 }
 
 run()

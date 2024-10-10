@@ -1,16 +1,15 @@
 const fs = require('fs')
 const ZKLib = require('./node_modules/node-zklib/zklib')
 
+//Phihope 
+let zkInstance = new ZKLib('171.16.109.24', 4370, 10000, 4000);
+//Wetalk
+// let zkInstance = new ZKLib('171.16.113.238', 4370, 10000, 4000);
+let info = {}
+
 class Bio {
-    async getTransactions(){
-
+    async connect() {
         console.log("Initializing...")
-
-        //Phihope 
-        let zkInstance = new ZKLib('171.16.109.24', 4370, 10000, 4000);
-        //Wetalk
-        // let zkInstance = new ZKLib('171.16.113.238', 4370, 10000, 4000);
-
         try {
             // Create socket to machine 
             console.log("Connecting...")
@@ -18,16 +17,29 @@ class Bio {
 
             // Get general info like logCapacity, user counts, logs count
             // It's really useful to check the status of device 
-            console.log(await zkInstance.getInfo())
+            info = await zkInstance.getInfo()
+            console.log(info)
         } catch (e) {
             console.log(e)
             if (e.code === 'EADDRINUSE') {
             }
         }
+    }
 
-        // Get users in machine 
-        const users = await zkInstance.getUsers()
-        console.log("Total users: " + users.data.length)
+    async disconnect() {
+        // Disconnect the machine ( don't do this when you need realtime update :))) 
+        if (zkInstance) {
+            try {
+                await zkInstance.disconnect();
+                console.log('Disconnected!')
+            } catch (error) {
+                console.log('Error closing the socket:', error);
+            }
+        }
+    }
+    
+    async getTransactions(logsFileName) {
+        await this.connect()
 
         // Get all logs in the machine 
         // Currently, there is no filter to take data, it just takes all !! (which is sad)
@@ -51,18 +63,41 @@ class Bio {
         console.log("Time now is: " + getTime.toString());
 
         //write to JSON file
-        this.toJSON(logs.data, 'logs.json')
-        this.toJSON(users.data, 'users.json')
+        this.toJSON(logs.data, logsFileName)
+        
+        await this.disconnect()
+    }
 
-        // Disconnect the machine ( don't do this when you need realtime update :))) 
-        if (zkInstance) {
-            try {
-                await zkInstance.disconnect();
-                console.log('Disconnected!')
-            } catch (error) {
-                console.log('Error closing the socket:', error);
-            }
+    //not yet done
+    async getUsers(usersFileName) {
+        await this.connect()
+
+        // Get users in machine to reference ids in logs
+        let users = await zkInstance.getUsers()
+        console.log("Total users: " + users.data.length)
+        while(users.data.length != info.userCounts){
+            console.log("User count mismatch")
+            console.log("Retrying...")
+            users = await zkInstance.getUsers()
+            console.log("Total users: " + users.data.length)
         }
+
+        //write to JSON file
+        this.toJSON(users.data, usersFileName)
+
+        await this.disconnect()
+    }
+
+    async addUser() {
+
+    }
+
+    async editUser() {
+
+    }
+
+    async deleteUser() {
+
     }
 
     toJSON (data, filename){
@@ -75,7 +110,7 @@ class Bio {
                 console.error("An error occurred while writing to the file:", err);
                 return;
             }
-            console.log("JSON data successfully written");
+            console.log(filename + " successfully written");
         });
     }
 
@@ -87,7 +122,9 @@ class Bio {
             else
                 log.userName = "UserID Not Found: " + log.deviceUserId
 
+            //just for rearranging the field 
             log.timeStamp = log.recordTime
+
             //removed for clarity, idk what the hr will need from these anyway
             //all they need is the timestamp and name I think
             delete log.userSn
@@ -103,7 +140,7 @@ class Bio {
         let firstAndLast = []
         let currentDate = " "
         data.forEach(log => {
-            const date = new Date(log.recordTime)
+            const date = new Date(log.timeStamp)
             //+1 on month since month is 0 index
             const dateText = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate()
             //if date is after the start date

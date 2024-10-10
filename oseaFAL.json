@@ -1,52 +1,332 @@
 [
   {
     "deviceUserId": "1008",
-    "recordTime": "Wed Oct 09 2024 08:01:30 GMT+0800 (Philippine Standard Time)",
-    "userName": "CESS"
+    "userName": "CESS",
+    "timeStamp": "Tue Oct 08 2024 07:56:08 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "Tue Oct 08 2024 11:10:06 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "Wed Oct 09 2024 08:01:30 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "Wed Oct 09 2024 14:17:03 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "Thu Oct 10 2024 07:58:08 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "1009",
-    "recordTime": "Wed Oct 09 2024 07:42:23 GMT+0800 (Philippine Standard Time)",
-    "userName": "JOHN"
+    "userName": "JOHN",
+    "timeStamp": "Mon Oct 07 2024 07:53:45 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "Mon Oct 07 2024 17:08:51 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "Tue Oct 08 2024 09:42:02 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "Tue Oct 08 2024 20:59:03 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "Wed Oct 09 2024 07:42:23 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "Wed Oct 09 2024 17:42:25 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "Thu Oct 10 2024 07:31:53 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "1011",
-    "recordTime": "Wed Oct 09 2024 08:47:19 GMT+0800 (Philippine Standard Time)",
-    "userName": "DEL"
+    "userName": "DEL",
+    "timeStamp": "Mon Oct 07 2024 09:06:52 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "Mon Oct 07 2024 18:02:30 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "Tue Oct 08 2024 10:37:32 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "Tue Oct 08 2024 18:00:59 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "Wed Oct 09 2024 08:47:19 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "Wed Oct 09 2024 18:03:59 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "Thu Oct 10 2024 08:50:15 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "5001",
-    "recordTime": "Wed Oct 09 2024 09:12:02 GMT+0800 (Philippine Standard Time)",
-    "userName": "CRISTINE"
+    "userName": "CRISTINE",
+    "timeStamp": "Mon Oct 07 2024 09:01:12 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "Mon Oct 07 2024 18:14:31 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "Tue Oct 08 2024 08:50:27 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "Tue Oct 08 2024 18:08:03 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "Wed Oct 09 2024 09:12:02 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "Wed Oct 09 2024 17:41:13 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "Thu Oct 10 2024 08:38:38 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "5004",
-    "recordTime": "Wed Oct 09 2024 07:01:09 GMT+0800 (Philippine Standard Time)",
-    "userName": "RODEL"
+    "userName": "RODEL",
+    "timeStamp": "Mon Oct 07 2024 08:29:58 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "Mon Oct 07 2024 17:06:58 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "Tue Oct 08 2024 07:20:12 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "Tue Oct 08 2024 17:07:02 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "Wed Oct 09 2024 07:01:09 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "Wed Oct 09 2024 18:04:31 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "Thu Oct 10 2024 07:32:06 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "5008",
-    "recordTime": "Wed Oct 09 2024 07:34:28 GMT+0800 (Philippine Standard Time)",
-    "userName": "MILES"
+    "userName": "MILES",
+    "timeStamp": "Mon Oct 07 2024 07:25:50 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "Mon Oct 07 2024 17:01:41 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "Tue Oct 08 2024 07:59:23 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "Tue Oct 08 2024 17:02:47 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "Wed Oct 09 2024 07:34:28 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "Wed Oct 09 2024 17:01:49 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "Thu Oct 10 2024 07:58:14 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "5010",
-    "recordTime": "Wed Oct 09 2024 06:57:26 GMT+0800 (Philippine Standard Time)",
-    "userName": "CORTEJO"
+    "userName": "CORTEJO",
+    "timeStamp": "Mon Oct 07 2024 07:08:37 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "Mon Oct 07 2024 17:00:52 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "Tue Oct 08 2024 06:45:42 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "Tue Oct 08 2024 17:00:14 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "Wed Oct 09 2024 06:57:26 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "Wed Oct 09 2024 17:06:56 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "Thu Oct 10 2024 06:49:09 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "5011",
-    "recordTime": "Wed Oct 09 2024 12:18:31 GMT+0800 (Philippine Standard Time)",
-    "userName": "VINCENT"
+    "userName": "VINCENT",
+    "timeStamp": "Mon Oct 07 2024 07:07:18 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "Mon Oct 07 2024 17:01:06 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "Tue Oct 08 2024 07:00:38 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "Tue Oct 08 2024 17:03:13 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "Wed Oct 09 2024 12:18:31 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "Wed Oct 09 2024 17:06:59 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "Thu Oct 10 2024 06:43:39 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "5012",
-    "recordTime": "Wed Oct 09 2024 06:42:58 GMT+0800 (Philippine Standard Time)",
-    "userName": "HARRY"
+    "userName": "HARRY",
+    "timeStamp": "Mon Oct 07 2024 07:02:09 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "Mon Oct 07 2024 17:00:48 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "Tue Oct 08 2024 06:50:41 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "Tue Oct 08 2024 17:00:04 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "Wed Oct 09 2024 06:42:58 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "Wed Oct 09 2024 17:07:07 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "Thu Oct 10 2024 06:58:23 GMT+0800 (Philippine Standard Time)"
   },
   {
     "deviceUserId": "5013",
-    "recordTime": "Wed Oct 09 2024 07:28:46 GMT+0800 (Philippine Standard Time)",
-    "userName": "IRA"
+    "userName": "IRA",
+    "timeStamp": "Tue Oct 08 2024 08:46:36 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5013",
+    "userName": "IRA",
+    "timeStamp": "Tue Oct 08 2024 17:04:59 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5013",
+    "userName": "IRA",
+    "timeStamp": "Wed Oct 09 2024 07:28:46 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5013",
+    "userName": "IRA",
+    "timeStamp": "Wed Oct 09 2024 17:03:31 GMT+0800 (Philippine Standard Time)"
+  },
+  {
+    "deviceUserId": "5013",
+    "userName": "IRA",
+    "timeStamp": "Thu Oct 10 2024 07:41:35 GMT+0800 (Philippine Standard Time)"
   }
 ]
