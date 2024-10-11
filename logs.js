@@ -2,23 +2,30 @@ const fs = require('fs').promises
 const Bio = require('./bio')
 const XLSX = require('xlsx');
 
-let biometric = new Bio()
+//Phihope 
+//const biometric = new Bio('171.16.109.24', 4370, 10000, 4000)
+//Wetalk
+//const biometric = new Bio('171.16.113.238', 4370, 10000, 4000)
 
 async function run() {
+    //Phihope
+    const biometric = new Bio('171.16.109.24', 4370, 10000, 4000)
+
     const logsFileName = 'logs.json'
     const usersFileName = 'users.json'
 
-    await biometric.connect()
-    //this gets transactions from the chosen device and writes it into a json file
-    await biometric.getTransactions(logsFileName).catch(err => {
-        // Handle any uncaught errors from the test function
-        console.error('Unhandled error in getTransactions:', err);
-    })
-    await biometric.getUsers(usersFileName).catch(err => {
-        console.error('Unhandled error in getUsers:', err)
-    })
-    await biometric.disconnect()
+    // await biometric.connect()
+    // //this gets transactions from the chosen device and writes it into a json file
+    // await biometric.getTransactions(logsFileName).catch(err => {
+    //     // Handle any uncaught errors from the test function
+    //     console.error('Unhandled error in getTransactions:', err);
+    // })
+    // await biometric.getUsers(usersFileName).catch(err => {
+    //     console.error('Unhandled error in getUsers:', err)
+    // })
+    // await biometric.disconnect()
 
+    
     //read after getting transactions
     const attendanceContent = await fs.readFile(logsFileName, 'utf-8')
     const attendanceJson = JSON.parse(attendanceContent)
@@ -45,7 +52,7 @@ async function run() {
 
     //get first and last log of each user
     let oseaFAL = []
-    let startDate = new Date("10/07/2024") // MM/DD/YYYY
+    let startDate = new Date("10/09/2024") // MM/DD/YYYY
     allIDs.forEach(id => {
         const userLogs = oseaLogs.filter(log => log.deviceUserId === id)
         const firstAndLast = biometric.getFirstAndLastLogPerDay(userLogs, startDate)

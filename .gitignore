@@ -4,3 +4,5 @@ node_modules/
 .DS_Store
 
 *.err.log
+
+!node_modules/node-zklib/

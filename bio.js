@@ -1,24 +1,23 @@
 const fs = require('fs')
 const ZKLib = require('./node_modules/node-zklib/zklib')
 
-//Phihope 
-let zkInstance = new ZKLib('171.16.109.24', 4370, 10000, 4000);
-//Wetalk
-// let zkInstance = new ZKLib('171.16.113.238', 4370, 10000, 4000);
-let info = {}
-
 class Bio {
+    constructor(ip, port, timeout, inport) {
+        this.info = {}
+        this.zkInstance = new ZKLib(ip, port, timeout, inport)
+    }
+
     async connect() {
         console.log("Initializing...")
         try {
             // Create socket to machine 
             console.log("Connecting...")
-            await zkInstance.createSocket()
+            await this.zkInstance.createSocket()
 
             // Get general info like logCapacity, user counts, logs count
             // It's really useful to check the status of device 
-            info = await zkInstance.getInfo()
-            console.log(info)
+            this.info = await this.zkInstance.getInfo()
+            console.log(this.info)
         } catch (e) {
             console.log(e)
             if (e.code === 'EADDRINUSE') {
@@ -28,9 +27,9 @@ class Bio {
 
     async disconnect() {
         // Disconnect the machine ( don't do this when you need realtime update :))) 
-        if (zkInstance) {
+        if (this.zkInstance) {
             try {
-                await zkInstance.disconnect();
+                await this.zkInstance.disconnect();
                 console.log('Disconnected!')
             } catch (error) {
                 console.log('Error closing the socket:', error);
@@ -41,12 +40,12 @@ class Bio {
     async getTransactions(logsFileName) {
         // Get all logs in the machine 
         // Currently, there is no filter to take data, it just takes all !! (which is sad)
-        const logs = await zkInstance.getAttendances()
+        const logs = await this.zkInstance.getAttendances()
         console.log("Total Attendances: "+ logs.data.length);
 
         // You can also read realtime log by getRealTimelogs function (which doesnt work)
 
-        // zkInstance.getRealTimeLogs((data)=>{
+        // this.zkInstance.getRealTimeLogs((data)=>{
         //     // do something when some checkin 
         //     console.log("real time")
         //     console.log(data)
@@ -54,10 +53,10 @@ class Bio {
 
         // delete the data in machine
         // You should do this when there are too many data in the machine, this issue can slow down machine 
-        // zkInstances.clearAttendanceLog();
+        // this.zkInstances.clearAttendanceLog();
         
         // Get the device time
-        const getTime = await zkInstance.getTime();
+        const getTime = await this.zkInstance.getTime();
         console.log("Time now is: " + getTime.toString());
 
         //write to JSON file
@@ -66,11 +65,11 @@ class Bio {
 
     async getUsers(usersFileName) {
         // Get users in machine to reference ids in logs
-        let users = await zkInstance.getUsers()
-        while(users.data.length != info.userCounts){
+        let users = await this.zkInstance.getUsers()
+        while(users.data.length != this.info.userCounts){
             console.log("User count mismatch")
             console.log("Retrying...")
-            users = await zkInstance.getUsers()
+            users = await this.zkInstance.getUsers()
         }
         console.log("Total users: " + users.data.length)
 
@@ -79,15 +78,35 @@ class Bio {
     }
 
     async addUser() {
+        // const username = `vince`
+        // //uid, userID, username, password, role, cardnum
+        // await this.zkInstance.setUser('78','5011', username, '', 0, 69);
+        // console.log('setUser: ' + username);
 
+        // const addedUser = usersData.data.filter(function(item){
+        //     return item.name == username
+        // })
+        // if(addedUser.length == 1){
+        //     console.log('User add successfull')
+        // }
     }
 
     async editUser() {
-
+        //check if user exists
     }
 
     async deleteUser() {
+        // deleteUser takes uid which is different from userID
+        // const deletedUser = await this.zkInstance.deleteUser(200);
+        // console.log('DeletedUser: ', deletedUser);
 
+        // const _usersData = await this.zkInstance.getUsers();
+        // const _addedUser = _usersData.data.filter(item => {
+        //     return item.uid == 200
+        // })
+        // if(_addedUser.length == 0){
+        //     console.log('User deleted successfull')
+        // }
     }
 
     toJSON (data, filename){
@@ -113,7 +132,7 @@ class Bio {
                 log.userName = "UserID Not Found: " + log.deviceUserId
 
             //just for rearranging the field 
-            log.timeStamp = log.recordTime
+            log.timeStamp = this.formatDateWithoutGMT(new Date(log.recordTime))
 
             //removed for clarity, idk what the hr will need from these anyway
             //all they need is the timestamp and name I think
@@ -122,6 +141,20 @@ class Bio {
             delete log.recordTime
         })
         return data;
+    }
+
+    // Function to format the date without the GMT offset
+    formatDateWithoutGMT(date) {
+        // Get the individual components
+        const year = date.getFullYear()
+        const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+        const day = String(date.getDate()).padStart(2, '0');
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        const seconds = String(date.getSeconds()).padStart(2, '0');
+        
+        // Construct the desired format
+        return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
     }
 
     getFirstAndLastLogPerDay(data, startDate) {
