@@ -37,9 +37,9 @@ class Bio {
         }
     }
     
-    async getTransactions(logsFileName) {
+    async getTransactions() {
         // Get all logs in the machine 
-        // Currently, there is no filter to take data, it just takes all !! (which is sad)
+        // Currently, there is no way to filter the data, it just takes everything (which is sad)
         const logs = await this.zkInstance.getAttendances()
         console.log("Total Attendances: "+ logs.data.length);
 
@@ -59,11 +59,10 @@ class Bio {
         const getTime = await this.zkInstance.getTime();
         console.log("Time now is: " + getTime.toString());
 
-        //write to JSON file
-        this.toJSON(logs.data, logsFileName)
+        return logs
     }
 
-    async getUsers(usersFileName) {
+    async getUsers() {
         // Get users in machine to reference ids in logs
         let users = await this.zkInstance.getUsers()
         while(users.data.length != this.info.userCounts){
@@ -73,29 +72,34 @@ class Bio {
         }
         console.log("Total users: " + users.data.length)
 
-        //write to JSON file
-        this.toJSON(users.data, usersFileName)
+        return users
     }
 
-    async addUser() {
-        // const username = `vince`
-        // //uid, userID, username, password, role, cardnum
-        // await this.zkInstance.setUser('78','5011', username, '', 0, 69);
-        // console.log('setUser: ' + username);
+    async addUser(uid, userID, username, cardnum) {
+        //uid, userID, username, password, role, cardnum
+        await this.zkInstance.setUser(uid, userID, username, '', 0, cardnum)
 
-        // const addedUser = usersData.data.filter(function(item){
-        //     return item.name == username
-        // })
-        // if(addedUser.length == 1){
-        //     console.log('User add successfull')
-        // }
+        console.log('setUser: ' + username);
     }
 
-    async editUser() {
+    async editUser(uid, userID, username, cardnum) {
         //check if user exists
+        const users = await this.getUsers()
+
+        const editUser = users.data.filter(item => {
+            return item.userId === userID
+        })
+        if(editUser.length == 1){
+            console.log('User Found')
+            //set user by overwriting data
+            await this.zkInstance.setUser(uid, userID, username, '', 0, cardnum)
+            console.log('editUser: ' + username);
+        } else {
+            console.log('User Not Found')
+        }
     }
 
-    async deleteUser() {
+    async deleteUser(uid) {
         // deleteUser takes uid which is different from userID
         // const deletedUser = await this.zkInstance.deleteUser(200);
         // console.log('DeletedUser: ', deletedUser);
@@ -157,7 +161,7 @@ class Bio {
         return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
     }
 
-    getFirstAndLastLogPerDay(data, startDate) {
+    getFirstAndLastLogPerDay(data, startDate, endDate) {
         //data is logs of one user
         const filteredLogs = []
         let firstAndLast = []
@@ -166,8 +170,8 @@ class Bio {
             const date = new Date(log.timeStamp)
             //+1 on month since month is 0 index
             const dateText = date.getFullYear() + "/" + (date.getMonth()+1) + "/" + date.getDate()
-            //if date is after the start date
-            if(date >= startDate) {
+            //if date is after the start date and before the end date
+            if((date >= startDate) && (date <= endDate)) {
                 //if date is equal to the date we are checking
                 if(dateText === currentDate) {
                     if(firstAndLast.length < 2) {

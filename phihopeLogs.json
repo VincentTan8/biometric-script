@@ -146506,5 +146506,839 @@
     "deviceUserId": "5001",
     "recordTime": "Fri Oct 11 2024 08:48:32 GMT+0800 (Philippine Standard Time)",
     "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24419,
+    "deviceUserId": "5004",
+    "recordTime": "Fri Oct 11 2024 09:02:03 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24420,
+    "deviceUserId": "1011",
+    "recordTime": "Fri Oct 11 2024 09:08:12 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24421,
+    "deviceUserId": "2055",
+    "recordTime": "Fri Oct 11 2024 09:11:24 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24422,
+    "deviceUserId": "1008",
+    "recordTime": "Fri Oct 11 2024 09:16:16 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24423,
+    "deviceUserId": "1007",
+    "recordTime": "Fri Oct 11 2024 09:18:40 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24424,
+    "deviceUserId": "1025",
+    "recordTime": "Fri Oct 11 2024 09:20:36 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24425,
+    "deviceUserId": "2055",
+    "recordTime": "Fri Oct 11 2024 09:36:33 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24426,
+    "deviceUserId": "1016",
+    "recordTime": "Fri Oct 11 2024 09:37:12 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24427,
+    "deviceUserId": "1025",
+    "recordTime": "Fri Oct 11 2024 09:38:54 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24428,
+    "deviceUserId": "5010",
+    "recordTime": "Fri Oct 11 2024 09:39:57 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24429,
+    "deviceUserId": "808",
+    "recordTime": "Fri Oct 11 2024 09:40:49 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24430,
+    "deviceUserId": "1025",
+    "recordTime": "Fri Oct 11 2024 09:44:29 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24431,
+    "deviceUserId": "4015",
+    "recordTime": "Fri Oct 11 2024 09:45:46 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24432,
+    "deviceUserId": "1021",
+    "recordTime": "Fri Oct 11 2024 09:52:34 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24433,
+    "deviceUserId": "1024",
+    "recordTime": "Fri Oct 11 2024 10:00:54 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24434,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 10:02:15 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24435,
+    "deviceUserId": "1001",
+    "recordTime": "Fri Oct 11 2024 10:14:17 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24436,
+    "deviceUserId": "1028",
+    "recordTime": "Fri Oct 11 2024 10:15:06 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24437,
+    "deviceUserId": "1025",
+    "recordTime": "Fri Oct 11 2024 10:27:40 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24438,
+    "deviceUserId": "4011",
+    "recordTime": "Fri Oct 11 2024 10:46:23 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24439,
+    "deviceUserId": "1009",
+    "recordTime": "Fri Oct 11 2024 10:54:29 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24440,
+    "deviceUserId": "5004",
+    "recordTime": "Fri Oct 11 2024 10:59:33 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24441,
+    "deviceUserId": "1011",
+    "recordTime": "Fri Oct 11 2024 11:04:46 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24442,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 11:10:25 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24443,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 11:11:10 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24444,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 11:11:54 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24445,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 11:15:14 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24446,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 11:15:33 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24447,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 11:26:37 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24448,
+    "deviceUserId": "5004",
+    "recordTime": "Fri Oct 11 2024 11:30:23 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24449,
+    "deviceUserId": "5013",
+    "recordTime": "Fri Oct 11 2024 11:32:08 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24450,
+    "deviceUserId": "2055",
+    "recordTime": "Fri Oct 11 2024 11:45:48 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24451,
+    "deviceUserId": "1024",
+    "recordTime": "Fri Oct 11 2024 11:46:54 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24452,
+    "deviceUserId": "1002",
+    "recordTime": "Fri Oct 11 2024 11:48:50 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24453,
+    "deviceUserId": "1016",
+    "recordTime": "Fri Oct 11 2024 11:51:26 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24454,
+    "deviceUserId": "1027",
+    "recordTime": "Fri Oct 11 2024 11:52:05 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24455,
+    "deviceUserId": "5001",
+    "recordTime": "Fri Oct 11 2024 12:28:29 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24456,
+    "deviceUserId": "1002",
+    "recordTime": "Fri Oct 11 2024 12:54:34 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24457,
+    "deviceUserId": "1009",
+    "recordTime": "Fri Oct 11 2024 12:56:18 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24458,
+    "deviceUserId": "1007",
+    "recordTime": "Fri Oct 11 2024 12:57:21 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24459,
+    "deviceUserId": "5004",
+    "recordTime": "Fri Oct 11 2024 13:01:36 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24460,
+    "deviceUserId": "4015",
+    "recordTime": "Fri Oct 11 2024 13:05:39 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24461,
+    "deviceUserId": "4015",
+    "recordTime": "Fri Oct 11 2024 13:05:41 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24462,
+    "deviceUserId": "1025",
+    "recordTime": "Fri Oct 11 2024 13:09:31 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24463,
+    "deviceUserId": "1011",
+    "recordTime": "Fri Oct 11 2024 13:10:35 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24464,
+    "deviceUserId": "4008",
+    "recordTime": "Fri Oct 11 2024 13:15:46 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24465,
+    "deviceUserId": "4008",
+    "recordTime": "Fri Oct 11 2024 13:15:48 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24466,
+    "deviceUserId": "5005",
+    "recordTime": "Fri Oct 11 2024 13:16:49 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24467,
+    "deviceUserId": "5004",
+    "recordTime": "Fri Oct 11 2024 13:17:59 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24468,
+    "deviceUserId": "1024",
+    "recordTime": "Fri Oct 11 2024 13:25:49 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24469,
+    "deviceUserId": "1009",
+    "recordTime": "Fri Oct 11 2024 13:29:47 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24470,
+    "deviceUserId": "4008",
+    "recordTime": "Fri Oct 11 2024 13:34:43 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24471,
+    "deviceUserId": "4008",
+    "recordTime": "Fri Oct 11 2024 13:34:46 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24472,
+    "deviceUserId": "4008",
+    "recordTime": "Fri Oct 11 2024 13:34:48 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24473,
+    "deviceUserId": "4008",
+    "recordTime": "Fri Oct 11 2024 13:34:51 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24474,
+    "deviceUserId": "1028",
+    "recordTime": "Fri Oct 11 2024 13:48:52 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24475,
+    "deviceUserId": "5003",
+    "recordTime": "Fri Oct 11 2024 13:50:51 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24476,
+    "deviceUserId": "1004",
+    "recordTime": "Fri Oct 11 2024 13:53:50 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24477,
+    "deviceUserId": "2009",
+    "recordTime": "Fri Oct 11 2024 13:55:04 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24478,
+    "deviceUserId": "902",
+    "recordTime": "Fri Oct 11 2024 14:03:52 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24479,
+    "deviceUserId": "1009",
+    "recordTime": "Fri Oct 11 2024 14:05:14 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24480,
+    "deviceUserId": "5004",
+    "recordTime": "Fri Oct 11 2024 14:10:32 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24481,
+    "deviceUserId": "1009",
+    "recordTime": "Fri Oct 11 2024 14:20:05 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24482,
+    "deviceUserId": "5013",
+    "recordTime": "Fri Oct 11 2024 14:20:56 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24483,
+    "deviceUserId": "1024",
+    "recordTime": "Fri Oct 11 2024 14:31:09 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24484,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 14:32:35 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24485,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 14:33:17 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24486,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 14:33:25 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24487,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 14:41:45 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24488,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 14:42:53 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24489,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 14:47:32 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24490,
+    "deviceUserId": "4015",
+    "recordTime": "Fri Oct 11 2024 15:00:11 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24491,
+    "deviceUserId": "3",
+    "recordTime": "Fri Oct 11 2024 15:13:22 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24492,
+    "deviceUserId": "1009",
+    "recordTime": "Fri Oct 11 2024 15:17:47 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24493,
+    "deviceUserId": "1025",
+    "recordTime": "Fri Oct 11 2024 15:19:30 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24494,
+    "deviceUserId": "908",
+    "recordTime": "Fri Oct 11 2024 16:17:15 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24495,
+    "deviceUserId": "5001",
+    "recordTime": "Fri Oct 11 2024 16:25:33 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24496,
+    "deviceUserId": "1016",
+    "recordTime": "Fri Oct 11 2024 16:29:12 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24497,
+    "deviceUserId": "1016",
+    "recordTime": "Fri Oct 11 2024 16:33:16 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24498,
+    "deviceUserId": "5007",
+    "recordTime": "Fri Oct 11 2024 16:45:16 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24499,
+    "deviceUserId": "1026",
+    "recordTime": "Fri Oct 11 2024 16:48:59 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24500,
+    "deviceUserId": "1026",
+    "recordTime": "Fri Oct 11 2024 16:52:31 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24501,
+    "deviceUserId": "4011",
+    "recordTime": "Fri Oct 11 2024 16:57:07 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24502,
+    "deviceUserId": "5010",
+    "recordTime": "Fri Oct 11 2024 17:00:48 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24503,
+    "deviceUserId": "5012",
+    "recordTime": "Fri Oct 11 2024 17:00:51 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24504,
+    "deviceUserId": "5011",
+    "recordTime": "Fri Oct 11 2024 17:00:54 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24505,
+    "deviceUserId": "1009",
+    "recordTime": "Fri Oct 11 2024 17:01:32 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24506,
+    "deviceUserId": "1021",
+    "recordTime": "Fri Oct 11 2024 17:02:22 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24507,
+    "deviceUserId": "1028",
+    "recordTime": "Fri Oct 11 2024 17:05:31 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24508,
+    "deviceUserId": "5013",
+    "recordTime": "Fri Oct 11 2024 17:06:59 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24509,
+    "deviceUserId": "5004",
+    "recordTime": "Fri Oct 11 2024 17:17:56 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24510,
+    "deviceUserId": "3",
+    "recordTime": "Fri Oct 11 2024 17:32:31 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24511,
+    "deviceUserId": "4015",
+    "recordTime": "Fri Oct 11 2024 18:00:49 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24512,
+    "deviceUserId": "1027",
+    "recordTime": "Fri Oct 11 2024 18:03:27 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24513,
+    "deviceUserId": "908",
+    "recordTime": "Fri Oct 11 2024 18:03:35 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24514,
+    "deviceUserId": "908",
+    "recordTime": "Fri Oct 11 2024 18:07:38 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24515,
+    "deviceUserId": "1011",
+    "recordTime": "Fri Oct 11 2024 18:10:19 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24516,
+    "deviceUserId": "1",
+    "recordTime": "Fri Oct 11 2024 18:41:03 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24517,
+    "deviceUserId": "1",
+    "recordTime": "Fri Oct 11 2024 18:41:06 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24518,
+    "deviceUserId": "1027",
+    "recordTime": "Fri Oct 11 2024 18:45:19 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24519,
+    "deviceUserId": "4009",
+    "recordTime": "Fri Oct 11 2024 18:51:01 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24520,
+    "deviceUserId": "4009",
+    "recordTime": "Fri Oct 11 2024 18:55:04 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24521,
+    "deviceUserId": "5005",
+    "recordTime": "Fri Oct 11 2024 19:00:02 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24522,
+    "deviceUserId": "1021",
+    "recordTime": "Fri Oct 11 2024 19:02:34 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24523,
+    "deviceUserId": "3",
+    "recordTime": "Fri Oct 11 2024 19:05:03 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24524,
+    "deviceUserId": "3",
+    "recordTime": "Fri Oct 11 2024 19:23:37 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24525,
+    "deviceUserId": "5001",
+    "recordTime": "Fri Oct 11 2024 19:43:55 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24526,
+    "deviceUserId": "3",
+    "recordTime": "Fri Oct 11 2024 19:59:53 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24527,
+    "deviceUserId": "1027",
+    "recordTime": "Fri Oct 11 2024 20:07:48 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24528,
+    "deviceUserId": "1027",
+    "recordTime": "Fri Oct 11 2024 21:00:58 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24529,
+    "deviceUserId": "908",
+    "recordTime": "Sun Oct 13 2024 07:54:37 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24530,
+    "deviceUserId": "908",
+    "recordTime": "Sun Oct 13 2024 18:03:44 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24531,
+    "deviceUserId": "2055",
+    "recordTime": "Mon Oct 14 2024 06:39:03 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24532,
+    "deviceUserId": "1026",
+    "recordTime": "Mon Oct 14 2024 06:49:05 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24533,
+    "deviceUserId": "5012",
+    "recordTime": "Mon Oct 14 2024 06:49:17 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24534,
+    "deviceUserId": "5012",
+    "recordTime": "Mon Oct 14 2024 06:49:19 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24535,
+    "deviceUserId": "5010",
+    "recordTime": "Mon Oct 14 2024 06:50:42 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24536,
+    "deviceUserId": "5011",
+    "recordTime": "Mon Oct 14 2024 07:12:32 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24537,
+    "deviceUserId": "5011",
+    "recordTime": "Mon Oct 14 2024 07:12:36 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24538,
+    "deviceUserId": "5008",
+    "recordTime": "Mon Oct 14 2024 07:21:50 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24539,
+    "deviceUserId": "1028",
+    "recordTime": "Mon Oct 14 2024 07:31:32 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24540,
+    "deviceUserId": "1009",
+    "recordTime": "Mon Oct 14 2024 07:34:17 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24541,
+    "deviceUserId": "5006",
+    "recordTime": "Mon Oct 14 2024 07:36:27 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24542,
+    "deviceUserId": "5006",
+    "recordTime": "Mon Oct 14 2024 07:36:30 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24543,
+    "deviceUserId": "1024",
+    "recordTime": "Mon Oct 14 2024 07:41:16 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24544,
+    "deviceUserId": "1025",
+    "recordTime": "Mon Oct 14 2024 07:47:25 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24545,
+    "deviceUserId": "4008",
+    "recordTime": "Mon Oct 14 2024 07:48:47 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24546,
+    "deviceUserId": "5011",
+    "recordTime": "Mon Oct 14 2024 07:51:45 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24547,
+    "deviceUserId": "1009",
+    "recordTime": "Mon Oct 14 2024 07:52:23 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24548,
+    "deviceUserId": "1007",
+    "recordTime": "Mon Oct 14 2024 07:54:54 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24549,
+    "deviceUserId": "908",
+    "recordTime": "Mon Oct 14 2024 07:56:00 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24550,
+    "deviceUserId": "5011",
+    "recordTime": "Mon Oct 14 2024 07:56:46 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24551,
+    "deviceUserId": "4011",
+    "recordTime": "Mon Oct 14 2024 07:58:11 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24552,
+    "deviceUserId": "5008",
+    "recordTime": "Mon Oct 14 2024 08:02:49 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24553,
+    "deviceUserId": "1008",
+    "recordTime": "Mon Oct 14 2024 08:02:56 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24554,
+    "deviceUserId": "5004",
+    "recordTime": "Mon Oct 14 2024 08:32:11 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24555,
+    "deviceUserId": "1024",
+    "recordTime": "Mon Oct 14 2024 08:37:01 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24556,
+    "deviceUserId": "1002",
+    "recordTime": "Mon Oct 14 2024 08:39:27 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
+  },
+  {
+    "userSn": 24557,
+    "deviceUserId": "5004",
+    "recordTime": "Mon Oct 14 2024 08:40:03 GMT+0800 (Philippine Standard Time)",
+    "ip": "171.16.109.24"
   }
 ]

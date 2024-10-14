@@ -1,31 +1,37 @@
 const fs = require('fs').promises
 const Bio = require('./bio')
-const XLSX = require('xlsx');
-
-//Phihope 
-//const biometric = new Bio('171.16.109.24', 4370, 10000, 4000)
-//Wetalk
-//const biometric = new Bio('171.16.113.238', 4370, 10000, 4000)
+const XLSX = require('xlsx')
 
 async function run() {
     //Phihope
     const biometric = new Bio('171.16.109.24', 4370, 10000, 4000)
+    const logsFileName = 'phihopeLogs.json'
+    const usersFileName = 'phihopeUsers.json'
+    //Wetalk
+    // const biometric = new Bio('171.16.113.238', 4370, 10000, 4000)
+    // const logsFileName = 'wetalkLogs.json'
+    // const usersFileName = 'wetalkUsers.json'
 
-    const logsFileName = 'logs.json'
-    const usersFileName = 'users.json'
-
-    // await biometric.connect()
-    // //this gets transactions from the chosen device and writes it into a json file
-    // await biometric.getTransactions(logsFileName).catch(err => {
-    //     // Handle any uncaught errors from the test function
-    //     console.error('Unhandled error in getTransactions:', err);
-    // })
-    // await biometric.getUsers(usersFileName).catch(err => {
-    //     console.error('Unhandled error in getUsers:', err)
-    // })
-    // await biometric.disconnect()
-
+    await biometric.connect()
+    //this gets transactions from the chosen device and writes it into a json file
+    const logs = await biometric.getTransactions().catch(err => {
+        // Handle any uncaught errors from the test function
+        console.error('Unhandled error in getTransactions:', err)
+    })
+    biometric.toJSON(logs.data, logsFileName)
     
+    await biometric.editUser('21','5011', 'VINCENT', 2714852516) //phihope vincent
+       .catch(err => {
+        console.error('Unhandled error in editUser:', err)
+    })
+
+    const users = await biometric.getUsers().catch(err => {
+        console.error('Unhandled error in getUsers:', err)
+    })
+    biometric.toJSON(users.data, usersFileName)
+
+    await biometric.disconnect()
+
     //read after getting transactions
     const attendanceContent = await fs.readFile(logsFileName, 'utf-8')
     const attendanceJson = JSON.parse(attendanceContent)
@@ -40,7 +46,8 @@ async function run() {
     //get all unique IDs
     const allIDs = []
     userJson.forEach(user => {
-        allIDs.push(user.userId)
+        if (!allIDs.includes(user.userId))
+            allIDs.push(user.userId)
     })
 
     //this renames some of the fields and deletes unneeded fields
@@ -48,27 +55,28 @@ async function run() {
         attendanceJson.filter(log => allIDs.includes(log.deviceUserId)),
         userJson
     )
-    biometric.toJSON(oseaLogs, 'osea.json')
+    biometric.toJSON(oseaLogs, 'readable.json')
 
     //get first and last log of each user
     let oseaFAL = []
-    let startDate = new Date("10/09/2024") // MM/DD/YYYY
+    let startDate = new Date("10/09/2024") // MM/DD/YYYY 00:00:00
+    let endDate = new Date("10/23/2024") // MM/DD/YYYY day before endDate will be taken
     allIDs.forEach(id => {
         const userLogs = oseaLogs.filter(log => log.deviceUserId === id)
-        const firstAndLast = biometric.getFirstAndLastLogPerDay(userLogs, startDate)
+        const firstAndLast = biometric.getFirstAndLastLogPerDay(userLogs, startDate, endDate)
         oseaFAL.push(...firstAndLast)
     })
 
     // To Excel
     // Create a new workbook and add a worksheet
-    let workbook = XLSX.utils.book_new();
-    let worksheet = XLSX.utils.json_to_sheet(oseaFAL);
+    let workbook = XLSX.utils.book_new()
+    let worksheet = XLSX.utils.json_to_sheet(oseaFAL)
 
     // Append the worksheet to the workbook
-    XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
+    XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1')
 
     // Write the workbook to an Excel file
-    XLSX.writeFile(workbook, 'logs.xlsx');
+    XLSX.writeFile(workbook, 'logs.xlsx')
     console.log("logs.xlsx successfully written")
 }
 
