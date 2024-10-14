@@ -19,11 +19,17 @@ async function run() {
         console.error('Unhandled error in getTransactions:', err)
     })
     biometric.toJSON(logs.data, logsFileName)
+
+    // await biometric.addUser('9999', "IT Test", 1234567890)
+
+    // await biometric.deleteUser('3000')
     
-    await biometric.editUser('21','5011', 'VINCENT', 2714852516) //phihope vincent
-       .catch(err => {
-        console.error('Unhandled error in editUser:', err)
-    })
+    //uid of existing user is needed to edit
+    // '21','5011', 'VINCENT', 2714852516 phihope vincent
+    // await biometric.editUser('21','5011', 'VINCENT', 2714852516) 
+    //    .catch(err => {
+    //     console.error('Unhandled error in editUser:', err)
+    // })
 
     const users = await biometric.getUsers().catch(err => {
         console.error('Unhandled error in getUsers:', err)
@@ -51,26 +57,26 @@ async function run() {
     })
 
     //this renames some of the fields and deletes unneeded fields
-    const oseaLogs = biometric.makeReadable(
+    const allLogs = biometric.makeReadable(
         attendanceJson.filter(log => allIDs.includes(log.deviceUserId)),
         userJson
     )
-    biometric.toJSON(oseaLogs, 'readable.json')
+    biometric.toJSON(allLogs, 'readable.json')
 
     //get first and last log of each user
-    let oseaFAL = []
+    let allFAL = []
     let startDate = new Date("10/09/2024") // MM/DD/YYYY 00:00:00
     let endDate = new Date("10/23/2024") // MM/DD/YYYY day before endDate will be taken
     allIDs.forEach(id => {
-        const userLogs = oseaLogs.filter(log => log.deviceUserId === id)
+        const userLogs = allLogs.filter(log => log.deviceUserId === id)
         const firstAndLast = biometric.getFirstAndLastLogPerDay(userLogs, startDate, endDate)
-        oseaFAL.push(...firstAndLast)
+        allFAL.push(...firstAndLast)
     })
 
     // To Excel
     // Create a new workbook and add a worksheet
     let workbook = XLSX.utils.book_new()
-    let worksheet = XLSX.utils.json_to_sheet(oseaFAL)
+    let worksheet = XLSX.utils.json_to_sheet(allFAL)
 
     // Append the worksheet to the workbook
     XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1')

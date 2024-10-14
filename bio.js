@@ -29,10 +29,10 @@ class Bio {
         // Disconnect the machine ( don't do this when you need realtime update :))) 
         if (this.zkInstance) {
             try {
-                await this.zkInstance.disconnect();
+                await this.zkInstance.disconnect()
                 console.log('Disconnected!')
             } catch (error) {
-                console.log('Error closing the socket:', error);
+                console.log('Error closing the socket:', error)
             }
         }
     }
@@ -41,7 +41,7 @@ class Bio {
         // Get all logs in the machine 
         // Currently, there is no way to filter the data, it just takes everything (which is sad)
         const logs = await this.zkInstance.getAttendances()
-        console.log("Total Attendances: "+ logs.data.length);
+        console.log("Total Attendances: "+ logs.data.length)
 
         // You can also read realtime log by getRealTimelogs function (which doesnt work)
 
@@ -53,11 +53,11 @@ class Bio {
 
         // delete the data in machine
         // You should do this when there are too many data in the machine, this issue can slow down machine 
-        // this.zkInstances.clearAttendanceLog();
+        // this.zkInstances.clearAttendanceLog()
         
         // Get the device time
-        const getTime = await this.zkInstance.getTime();
-        console.log("Time now is: " + getTime.toString());
+        const getTime = await this.zkInstance.getTime()
+        console.log("Time now is: " + getTime.toString())
 
         return logs
     }
@@ -65,6 +65,9 @@ class Bio {
     async getUsers() {
         // Get users in machine to reference ids in logs
         let users = await this.zkInstance.getUsers()
+        //update info
+        this.info = await this.zkInstance.getInfo()
+
         while(users.data.length != this.info.userCounts){
             console.log("User count mismatch")
             console.log("Retrying...")
@@ -75,25 +78,36 @@ class Bio {
         return users
     }
 
-    async addUser(uid, userID, username, cardnum) {
+    async addUser(userID, username, cardnum) {
+        //generate uid (valid uids are from 1 to 3000)
+        const users = await this.getUsers()
+        let i = 0;
+        let notValid = true
+        while (i < 3000 && notValid) {
+            i++;
+            notValid = users.data.some(user => {
+                return i == user.uid
+            })
+        }
+        const uid = i
+
         //uid, userID, username, password, role, cardnum
         await this.zkInstance.setUser(uid, userID, username, '', 0, cardnum)
-
-        console.log('setUser: ' + username);
+        console.log('Added User: ' + username)
     }
 
     async editUser(uid, userID, username, cardnum) {
         //check if user exists
         const users = await this.getUsers()
 
-        const editUser = users.data.filter(item => {
-            return item.userId === userID
+        const editedUser = users.data.filter(user => {
+            return user.uid == uid
         })
-        if(editUser.length == 1){
+        if(editedUser.length == 1){
             console.log('User Found')
             //set user by overwriting data
             await this.zkInstance.setUser(uid, userID, username, '', 0, cardnum)
-            console.log('editUser: ' + username);
+            console.log('Edited User: ' + username)
         } else {
             console.log('User Not Found')
         }
@@ -101,30 +115,21 @@ class Bio {
 
     async deleteUser(uid) {
         // deleteUser takes uid which is different from userID
-        // const deletedUser = await this.zkInstance.deleteUser(200);
-        // console.log('DeletedUser: ', deletedUser);
-
-        // const _usersData = await this.zkInstance.getUsers();
-        // const _addedUser = _usersData.data.filter(item => {
-        //     return item.uid == 200
-        // })
-        // if(_addedUser.length == 0){
-        //     console.log('User deleted successfull')
-        // }
+        const deletedUser = await this.zkInstance.deleteUser(uid)
     }
 
     toJSON (data, filename){
         // Convert the logs to a JSON string
-        const jsonData = JSON.stringify(data, null, 2); // 'null, 2' adds indentation for readability
+        const jsonData = JSON.stringify(data, null, 2) // 'null, 2' adds indentation for readability
 
         // // Write the JSON string to a file
         fs.writeFile(filename, jsonData, (err) => {
             if (err) {
-                console.error("An error occurred while writing to the file:", err);
-                return;
+                console.error("An error occurred while writing to the file:", err)
+                return
             }
-            console.log(filename + " successfully written");
-        });
+            console.log(filename + " successfully written")
+        })
     }
 
     makeReadable(data, userData) {
@@ -144,21 +149,21 @@ class Bio {
             delete log.ip
             delete log.recordTime
         })
-        return data;
+        return data
     }
 
     // Function to format the date without the GMT offset
     formatDateWithoutGMT(date) {
         // Get the individual components
         const year = date.getFullYear()
-        const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
-        const day = String(date.getDate()).padStart(2, '0');
-        const hours = String(date.getHours()).padStart(2, '0');
-        const minutes = String(date.getMinutes()).padStart(2, '0');
-        const seconds = String(date.getSeconds()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0') // Months are 0-indexed
+        const day = String(date.getDate()).padStart(2, '0')
+        const hours = String(date.getHours()).padStart(2, '0')
+        const minutes = String(date.getMinutes()).padStart(2, '0')
+        const seconds = String(date.getSeconds()).padStart(2, '0')
         
         // Construct the desired format
-        return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+        return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`
     }
 
     getFirstAndLastLogPerDay(data, startDate, endDate) {
@@ -200,7 +205,7 @@ class Bio {
         if(firstAndLast[1]) 
             filteredLogs.push(firstAndLast[1])
 
-        return filteredLogs;
+        return filteredLogs
     }
 }
 
