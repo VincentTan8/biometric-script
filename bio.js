@@ -69,7 +69,7 @@ class Bio {
         this.info = await this.zkInstance.getInfo()
 
         while(users.data.length != this.info.userCounts){
-            console.log("User count mismatch")
+            console.log("User count mismatch: " + users.data.length)
             console.log("Retrying...")
             users = await this.zkInstance.getUsers()
         }
@@ -116,6 +116,7 @@ class Bio {
     async deleteUser(uid) {
         // deleteUser takes uid which is different from userID
         const deletedUser = await this.zkInstance.deleteUser(uid)
+        console.log('Deleted User with UID: ' + uid)
     }
 
     toJSON (data, filename){
