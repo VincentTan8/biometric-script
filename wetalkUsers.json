@@ -260,7 +260,7 @@
     "role": 0,
     "password": "",
     "name": "603",
-    "cardno": 3220715955,
+    "cardno": 2701907540,
     "userId": "603"
   },
   {
@@ -268,7 +268,7 @@
     "role": 0,
     "password": "",
     "name": "604",
-    "cardno": 3445333566,
+    "cardno": 2030092393,
     "userId": "604"
   },
   {
@@ -276,7 +276,7 @@
     "role": 0,
     "password": "",
     "name": "605",
-    "cardno": 3445137598,
+    "cardno": 2703172260,
     "userId": "605"
   },
   {
@@ -705,14 +705,6 @@
   },
   {
     "uid": 89,
-    "role": 0,
-    "password": "",
-    "name": "IRA",
-    "cardno": 0,
-    "userId": "5013"
-  },
-  {
-    "uid": 90,
     "role": 0,
     "password": "",
     "name": "8",
