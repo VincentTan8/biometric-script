@@ -13,6 +13,7 @@ async function run() {
     // const usersFileName = 'wetalkUsers.json'
 
     await biometric.connect()
+    
     //this gets transactions from the chosen device and writes it into a json file
     const logs = await biometric.getTransactions().catch(err => {
         // Handle any uncaught errors from the test function
@@ -22,7 +23,7 @@ async function run() {
 
     // await biometric.addUser('9999', "IT Test", 1234567890)
 
-    // await biometric.deleteUser('3000')
+    // await biometric.deleteUser('82')
     
     //uid of existing user is needed to edit
     // '21','5011', 'VINCENT', 2714852516 phihope vincent
@@ -31,10 +32,10 @@ async function run() {
     //     console.error('Unhandled error in editUser:', err)
     // })
 
-    const users = await biometric.getUsers().catch(err => {
-        console.error('Unhandled error in getUsers:', err)
-    })
-    biometric.toJSON(users.data, usersFileName)
+    // const users = await biometric.getUsers().catch(err => {
+    //     console.error('Unhandled error in getUsers:', err)
+    // })
+    // biometric.toJSON(users.data, usersFileName)
 
     await biometric.disconnect()
 
@@ -56,6 +57,10 @@ async function run() {
             allIDs.push(user.userId)
     })
 
+    //for getting logs including IDs of deleted users
+    // const allIDs = [...new Set(attendanceJson.map(log => log.deviceUserId ))]
+    // console.log(allIDs)
+
     //this renames some of the fields and deletes unneeded fields
     const allLogs = biometric.makeReadable(
         attendanceJson.filter(log => allIDs.includes(log.deviceUserId)),
@@ -65,8 +70,8 @@ async function run() {
 
     //get first and last log of each user
     let allFAL = []
-    let startDate = new Date("10/09/2024") // MM/DD/YYYY 00:00:00
-    let endDate = new Date("10/23/2024") // MM/DD/YYYY day before endDate will be taken
+    let startDate = new Date("10/08/2024") // MM/DD/YYYY 00:00:00
+    let endDate = new Date("10/24/2024") // MM/DD/YYYY day before endDate will be taken
     allIDs.forEach(id => {
         const userLogs = allLogs.filter(log => log.deviceUserId === id)
         const firstAndLast = biometric.getFirstAndLastLogPerDay(userLogs, startDate, endDate)
