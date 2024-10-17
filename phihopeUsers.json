@@ -536,30 +536,6 @@
     "userId": "10004"
   },
   {
-    "uid": 68,
-    "role": 0,
-    "password": "",
-    "name": "Kat",
-    "cardno": 3449589134,
-    "userId": "2004"
-  },
-  {
-    "uid": 69,
-    "role": 0,
-    "password": "",
-    "name": "Jaser",
-    "cardno": 3448819038,
-    "userId": "2021"
-  },
-  {
-    "uid": 70,
-    "role": 0,
-    "password": "",
-    "name": "Rachelle",
-    "cardno": 3205106067,
-    "userId": "2009"
-  },
-  {
     "uid": 71,
     "role": 0,
     "password": "",
@@ -616,52 +592,12 @@
     "userId": "2032"
   },
   {
-    "uid": 78,
-    "role": 0,
-    "password": "",
-    "name": "Jenny",
-    "cardno": 3247097187,
-    "userId": "2057"
-  },
-  {
-    "uid": 79,
-    "role": 0,
-    "password": "",
-    "name": "Glydelle",
-    "cardno": 3247234067,
-    "userId": "2056"
-  },
-  {
     "uid": 80,
     "role": 0,
     "password": "",
     "name": "12",
     "cardno": 0,
     "userId": "12"
-  },
-  {
-    "uid": 81,
-    "role": 0,
-    "password": "",
-    "name": "Xyla",
-    "cardno": 3247100723,
-    "userId": "2060"
-  },
-  {
-    "uid": 82,
-    "role": 0,
-    "password": "",
-    "name": "Crishenn",
-    "cardno": 3247670227,
-    "userId": "2054"
-  },
-  {
-    "uid": 83,
-    "role": 0,
-    "password": "",
-    "name": "JUDY",
-    "cardno": 2703426452,
-    "userId": "2061"
   },
   {
     "uid": 84,
@@ -678,14 +614,6 @@
     "name": "7",
     "cardno": 3221648291,
     "userId": "7"
-  },
-  {
-    "uid": 86,
-    "role": 0,
-    "password": "",
-    "name": "Olayza",
-    "cardno": 2702122164,
-    "userId": "2063"
   },
   {
     "uid": 87,
@@ -710,13 +638,5 @@
     "name": "4003",
     "cardno": 4140785363,
     "userId": "4003"
-  },
-  {
-    "uid": 90,
-    "role": 0,
-    "password": "",
-    "name": "IRA",
-    "cardno": 0,
-    "userId": "5013"
   }
 ]
