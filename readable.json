@@ -86168,5 +86168,2180 @@
     "deviceUserId": "5008",
     "userName": "MILES",
     "timeStamp": "2024-10-17 17:02:49"
+  },
+  {
+    "deviceUserId": "5003",
+    "userName": "FRANCIS",
+    "timeStamp": "2024-10-17 17:29:13"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-17 17:42:04"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-17 17:43:20"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-17 17:45:17"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-17 17:50:52"
+  },
+  {
+    "deviceUserId": "1016",
+    "userName": "BONIFACIO",
+    "timeStamp": "2024-10-17 17:53:21"
+  },
+  {
+    "deviceUserId": "908",
+    "userName": "LEO",
+    "timeStamp": "2024-10-17 18:03:11"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-17 18:16:57"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-17 18:17:45"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-17 18:21:24"
+  },
+  {
+    "deviceUserId": "5005",
+    "userName": "ERIKA",
+    "timeStamp": "2024-10-17 18:44:23"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-17 18:45:10"
+  },
+  {
+    "deviceUserId": "5003",
+    "userName": "FRANCIS",
+    "timeStamp": "2024-10-17 18:46:30"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-17 18:51:55"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-17 18:56:33"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-17 18:59:08"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-17 19:10:33"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-17 19:10:35"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-17 19:21:09"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-17 19:24:36"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-17 19:34:07"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-17 19:34:10"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-17 19:56:44"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-17 20:04:13"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-17 20:04:19"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-17 20:30:52"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-17 21:00:14"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-17 21:00:25"
+  },
+  {
+    "deviceUserId": "1016",
+    "userName": "BONIFACIO",
+    "timeStamp": "2024-10-18 05:55:20"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-18 06:58:35"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-18 06:58:42"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-18 07:02:35"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 07:02:44"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 07:02:47"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 07:18:22"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-18 07:25:44"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 07:26:05"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 07:30:47"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-18 07:33:00"
+  },
+  {
+    "deviceUserId": "5006",
+    "userName": "DENNY",
+    "timeStamp": "2024-10-18 07:36:08"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-18 07:40:35"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-18 07:45:05"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-18 07:45:19"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 07:45:55"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 07:47:23"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-18 07:52:11"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-18 07:57:08"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-18 08:01:00"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 08:08:26"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-18 08:11:32"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-18 08:21:23"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 08:24:33"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 08:29:24"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 08:29:34"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 08:29:49"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-18 08:32:04"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-18 08:35:40"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 08:36:31"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 08:36:54"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-18 08:45:17"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-18 09:04:16"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-18 09:04:56"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 09:05:27"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 09:15:08"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 09:15:39"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-18 09:18:20"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-18 09:18:22"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 09:24:17"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 09:24:19"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 09:27:17"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 09:27:20"
+  },
+  {
+    "deviceUserId": "5007",
+    "userName": "PAUL",
+    "timeStamp": "2024-10-18 09:29:59"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-18 09:38:48"
+  },
+  {
+    "deviceUserId": "5003",
+    "userName": "FRANCIS",
+    "timeStamp": "2024-10-18 09:43:08"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 09:44:47"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-18 09:45:07"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-18 09:50:47"
+  },
+  {
+    "deviceUserId": "5005",
+    "userName": "ERIKA",
+    "timeStamp": "2024-10-18 09:51:27"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 09:55:42"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-18 09:58:18"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-18 10:00:56"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 10:01:40"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 10:01:43"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-18 10:06:05"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 10:08:52"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-18 10:13:34"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-18 10:15:26"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 10:15:53"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-18 10:20:41"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-18 10:36:43"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-18 10:39:27"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-18 10:44:36"
+  },
+  {
+    "deviceUserId": "4003",
+    "userName": "4003",
+    "timeStamp": "2024-10-18 10:48:20"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-18 10:49:00"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-18 10:49:55"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 10:50:47"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 10:52:58"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 10:55:07"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 10:55:10"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 10:55:13"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 10:55:29"
+  },
+  {
+    "deviceUserId": "1004",
+    "userName": "HANNAH",
+    "timeStamp": "2024-10-18 10:56:48"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 11:12:13"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 11:28:29"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-18 11:41:38"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 11:43:50"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 11:48:15"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 11:55:09"
+  },
+  {
+    "deviceUserId": "1004",
+    "userName": "HANNAH",
+    "timeStamp": "2024-10-18 11:59:39"
+  },
+  {
+    "deviceUserId": "5005",
+    "userName": "ERIKA",
+    "timeStamp": "2024-10-18 12:00:03"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-18 12:00:47"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-18 12:23:16"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-18 12:29:01"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 12:34:34"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-18 12:36:02"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 12:42:36"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 12:50:21"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 12:53:04"
+  },
+  {
+    "deviceUserId": "5006",
+    "userName": "DENNY",
+    "timeStamp": "2024-10-18 12:58:01"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 12:58:35"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-18 13:05:41"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-18 13:20:16"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 13:29:11"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 13:37:02"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 13:37:05"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 13:37:07"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 13:37:10"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-18 13:37:24"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 13:38:54"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 13:46:48"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 13:53:33"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 13:55:21"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-18 14:07:48"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-18 14:11:08"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 14:16:48"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-18 14:29:07"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 14:36:57"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 14:43:50"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-18 14:45:22"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 14:48:24"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 14:52:37"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-18 14:59:10"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 15:04:40"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-18 15:07:45"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-18 15:08:37"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-18 15:10:52"
+  },
+  {
+    "deviceUserId": "908",
+    "userName": "LEO",
+    "timeStamp": "2024-10-18 15:11:38"
+  },
+  {
+    "deviceUserId": "908",
+    "userName": "LEO",
+    "timeStamp": "2024-10-18 15:11:40"
+  },
+  {
+    "deviceUserId": "12",
+    "userName": "12",
+    "timeStamp": "2024-10-18 15:14:47"
+  },
+  {
+    "deviceUserId": "5006",
+    "userName": "DENNY",
+    "timeStamp": "2024-10-18 15:17:17"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 15:25:24"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-18 15:28:23"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 15:28:45"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 15:31:25"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-18 15:31:51"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 15:34:28"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 15:36:53"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 15:36:55"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 15:36:58"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-18 15:37:01"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-18 15:38:55"
+  },
+  {
+    "deviceUserId": "4003",
+    "userName": "4003",
+    "timeStamp": "2024-10-18 15:42:29"
+  },
+  {
+    "deviceUserId": "5003",
+    "userName": "FRANCIS",
+    "timeStamp": "2024-10-18 15:54:51"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 15:59:49"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 16:03:48"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 16:11:21"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-18 16:14:54"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 16:17:45"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 16:19:26"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 16:20:34"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-18 16:21:30"
+  },
+  {
+    "deviceUserId": "908",
+    "userName": "LEO",
+    "timeStamp": "2024-10-18 16:26:33"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 16:27:25"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-18 16:34:06"
+  },
+  {
+    "deviceUserId": "5005",
+    "userName": "ERIKA",
+    "timeStamp": "2024-10-18 16:38:00"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-18 16:39:09"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-18 16:41:23"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-18 17:00:21"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-18 17:00:26"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-18 17:00:32"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-18 17:01:22"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-18 17:01:28"
+  },
+  {
+    "deviceUserId": "5006",
+    "userName": "DENNY",
+    "timeStamp": "2024-10-18 17:04:03"
+  },
+  {
+    "deviceUserId": "5003",
+    "userName": "FRANCIS",
+    "timeStamp": "2024-10-18 17:04:12"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-18 17:25:22"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 17:33:27"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 17:45:06"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 17:47:00"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-18 17:58:48"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 18:00:54"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-18 18:01:22"
+  },
+  {
+    "deviceUserId": "908",
+    "userName": "LEO",
+    "timeStamp": "2024-10-18 18:03:26"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 18:04:04"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 18:33:52"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-18 18:35:07"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-18 18:36:02"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-18 18:38:54"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-18 18:46:35"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-18 18:46:59"
+  },
+  {
+    "deviceUserId": "1016",
+    "userName": "BONIFACIO",
+    "timeStamp": "2024-10-18 19:17:54"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-18 19:30:44"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-18 19:52:51"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-18 21:10:00"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-19 05:54:40"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-19 06:36:47"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-19 06:45:43"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-19 07:22:14"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-19 11:05:20"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-19 11:17:16"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-21 06:52:14"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-21 06:52:17"
+  },
+  {
+    "deviceUserId": "1004",
+    "userName": "HANNAH",
+    "timeStamp": "2024-10-21 07:03:33"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-21 07:12:01"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 07:23:31"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-21 07:33:54"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 07:33:59"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 07:34:06"
+  },
+  {
+    "deviceUserId": "5006",
+    "userName": "DENNY",
+    "timeStamp": "2024-10-21 07:38:40"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-21 07:44:08"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 07:47:13"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 07:47:16"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-21 07:48:25"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 07:50:07"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 07:50:50"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-21 07:51:14"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 07:55:44"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 07:55:47"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 08:01:03"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 08:02:40"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-21 08:17:09"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 08:33:57"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-21 08:50:37"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 08:54:07"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 08:54:10"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 09:05:21"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-21 09:05:24"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-21 09:05:27"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 09:05:30"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-21 09:05:33"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 09:05:35"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-21 09:05:38"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-21 09:05:42"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-21 09:45:09"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-21 10:01:19"
+  },
+  {
+    "deviceUserId": "4015",
+    "userName": "AKEYLA",
+    "timeStamp": "2024-10-21 10:12:51"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-21 10:13:37"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-21 10:28:42"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 10:31:14"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 10:37:12"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 10:41:25"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-21 10:44:24"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-21 10:45:58"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 10:47:48"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 10:47:50"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-21 11:00:55"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 11:05:46"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-21 11:11:17"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 11:14:32"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-21 11:20:11"
+  },
+  {
+    "deviceUserId": "1004",
+    "userName": "HANNAH",
+    "timeStamp": "2024-10-21 11:24:41"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 11:31:53"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 11:34:43"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 11:34:46"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 11:37:58"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-21 11:39:14"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-21 11:43:05"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-21 11:51:13"
+  },
+  {
+    "deviceUserId": "5003",
+    "userName": "FRANCIS",
+    "timeStamp": "2024-10-21 11:54:17"
+  },
+  {
+    "deviceUserId": "12",
+    "userName": "12",
+    "timeStamp": "2024-10-21 11:57:35"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 12:01:42"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-21 12:08:06"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 12:09:45"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 12:09:48"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 12:09:51"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 12:15:27"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 12:19:14"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 12:22:28"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-21 12:28:59"
+  },
+  {
+    "deviceUserId": "4015",
+    "userName": "AKEYLA",
+    "timeStamp": "2024-10-21 12:56:34"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 13:07:07"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-21 13:08:22"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-21 13:09:37"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-21 13:13:20"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 13:14:55"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 13:14:56"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-21 13:38:43"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-21 13:40:34"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 13:41:04"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-21 13:44:03"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-21 13:46:11"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-21 14:02:29"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-21 14:04:04"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-21 14:06:44"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 14:10:11"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 14:15:28"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 14:17:25"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 14:24:50"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 14:24:52"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 14:25:13"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-21 14:27:27"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-21 14:32:28"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 14:39:38"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-21 14:44:15"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 14:44:53"
+  },
+  {
+    "deviceUserId": "5003",
+    "userName": "FRANCIS",
+    "timeStamp": "2024-10-21 14:49:07"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 14:52:53"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 15:01:25"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 15:03:01"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 15:10:23"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 15:14:51"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-21 15:15:33"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 15:19:59"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-21 15:23:45"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-21 15:25:31"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 15:29:09"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-21 15:30:37"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 15:41:41"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 15:44:00"
+  },
+  {
+    "deviceUserId": "5007",
+    "userName": "PAUL",
+    "timeStamp": "2024-10-21 15:50:23"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 15:55:23"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 15:55:26"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-21 15:55:29"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-21 15:56:35"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-21 15:58:38"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-21 16:01:52"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 16:03:00"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 16:03:03"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 16:13:18"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-21 16:24:58"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 16:28:53"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-21 16:29:56"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-21 16:37:24"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 16:37:38"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 16:37:40"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 16:38:36"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 16:41:11"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 16:45:22"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-21 16:53:38"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 16:54:27"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-21 16:55:34"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-21 16:59:21"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-21 17:00:43"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-21 17:00:47"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-21 17:00:50"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-21 17:01:28"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-21 17:02:22"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-21 17:02:34"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-21 17:04:11"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-21 17:20:23"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-21 17:22:39"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 17:29:35"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-21 17:33:33"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-21 17:33:35"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-21 17:38:49"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-21 17:38:52"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-21 17:40:52"
+  },
+  {
+    "deviceUserId": "4015",
+    "userName": "AKEYLA",
+    "timeStamp": "2024-10-21 17:57:32"
+  },
+  {
+    "deviceUserId": "4015",
+    "userName": "AKEYLA",
+    "timeStamp": "2024-10-21 17:57:35"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-21 18:02:59"
+  },
+  {
+    "deviceUserId": "4015",
+    "userName": "AKEYLA",
+    "timeStamp": "2024-10-21 18:03:25"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-21 18:23:02"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 18:36:14"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-21 18:42:05"
+  },
+  {
+    "deviceUserId": "1021",
+    "userName": "ERWYN",
+    "timeStamp": "2024-10-21 19:02:26"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 19:04:19"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-21 19:26:59"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-21 21:01:50"
+  },
+  {
+    "deviceUserId": "5012",
+    "userName": "HARRY",
+    "timeStamp": "2024-10-22 06:50:50"
+  },
+  {
+    "deviceUserId": "5010",
+    "userName": "CORTEJO",
+    "timeStamp": "2024-10-22 06:57:08"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-22 07:25:35"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-22 07:30:42"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-22 07:31:02"
+  },
+  {
+    "deviceUserId": "5006",
+    "userName": "DENNY",
+    "timeStamp": "2024-10-22 07:33:04"
+  },
+  {
+    "deviceUserId": "12",
+    "userName": "12",
+    "timeStamp": "2024-10-22 07:33:47"
+  },
+  {
+    "deviceUserId": "4011",
+    "userName": "ANDY RUSSEL",
+    "timeStamp": "2024-10-22 07:35:45"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-22 07:35:50"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-22 07:43:32"
+  },
+  {
+    "deviceUserId": "1010",
+    "userName": "ROXAN",
+    "timeStamp": "2024-10-22 07:50:29"
+  },
+  {
+    "deviceUserId": "1004",
+    "userName": "HANNAH",
+    "timeStamp": "2024-10-22 07:51:54"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-22 07:52:11"
+  },
+  {
+    "deviceUserId": "908",
+    "userName": "LEO",
+    "timeStamp": "2024-10-22 07:54:23"
+  },
+  {
+    "deviceUserId": "1026",
+    "userName": "Johnpaul",
+    "timeStamp": "2024-10-22 07:54:45"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-22 07:54:56"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-22 08:07:32"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-22 08:20:59"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-22 08:29:12"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-22 08:50:51"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-22 08:53:11"
+  },
+  {
+    "deviceUserId": "1002",
+    "userName": "AFRYL JOY",
+    "timeStamp": "2024-10-22 08:56:57"
+  },
+  {
+    "deviceUserId": "1016",
+    "userName": "BONIFACIO",
+    "timeStamp": "2024-10-22 08:58:55"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-22 09:00:36"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-22 09:03:46"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-22 09:05:12"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-22 09:05:52"
+  },
+  {
+    "deviceUserId": "1011",
+    "userName": "DEL",
+    "timeStamp": "2024-10-22 09:08:03"
+  },
+  {
+    "deviceUserId": "1016",
+    "userName": "BONIFACIO",
+    "timeStamp": "2024-10-22 09:14:28"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-22 09:18:07"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-22 09:22:07"
+  },
+  {
+    "deviceUserId": "5007",
+    "userName": "PAUL",
+    "timeStamp": "2024-10-22 09:32:04"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-22 09:44:01"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-22 09:44:03"
+  },
+  {
+    "deviceUserId": "4015",
+    "userName": "AKEYLA",
+    "timeStamp": "2024-10-22 09:58:27"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-22 10:07:08"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-22 10:07:11"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-22 10:07:40"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-22 10:08:37"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-22 10:15:04"
+  },
+  {
+    "deviceUserId": "2055",
+    "userName": "PAULA",
+    "timeStamp": "2024-10-22 10:25:37"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-22 10:30:21"
+  },
+  {
+    "deviceUserId": "1004",
+    "userName": "HANNAH",
+    "timeStamp": "2024-10-22 10:31:53"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-22 10:42:09"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-22 10:55:22"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-22 10:58:20"
+  },
+  {
+    "deviceUserId": "4009",
+    "userName": "HUBERT LOPEZ",
+    "timeStamp": "2024-10-22 11:09:42"
+  },
+  {
+    "deviceUserId": "5005",
+    "userName": "ERIKA",
+    "timeStamp": "2024-10-22 11:10:14"
+  },
+  {
+    "deviceUserId": "5004",
+    "userName": "RODEL",
+    "timeStamp": "2024-10-22 11:24:03"
+  },
+  {
+    "deviceUserId": "1025",
+    "userName": "Lyndon",
+    "timeStamp": "2024-10-22 11:27:49"
+  },
+  {
+    "deviceUserId": "1008",
+    "userName": "CESS",
+    "timeStamp": "2024-10-22 11:54:05"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-22 11:58:20"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-22 12:07:13"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-22 12:07:16"
+  },
+  {
+    "deviceUserId": "4008",
+    "userName": "MAECHELLE",
+    "timeStamp": "2024-10-22 12:07:19"
+  },
+  {
+    "deviceUserId": "1007",
+    "userName": "1007",
+    "timeStamp": "2024-10-22 12:10:21"
+  },
+  {
+    "deviceUserId": "5001",
+    "userName": "CRISTINE",
+    "timeStamp": "2024-10-22 12:11:54"
+  },
+  {
+    "deviceUserId": "1027",
+    "userName": "Lordemil",
+    "timeStamp": "2024-10-22 12:13:33"
+  },
+  {
+    "deviceUserId": "5005",
+    "userName": "ERIKA",
+    "timeStamp": "2024-10-22 12:20:33"
+  },
+  {
+    "deviceUserId": "1024",
+    "userName": "Jane",
+    "timeStamp": "2024-10-22 12:22:23"
+  },
+  {
+    "deviceUserId": "1009",
+    "userName": "JOHN",
+    "timeStamp": "2024-10-22 12:39:59"
+  },
+  {
+    "deviceUserId": "5008",
+    "userName": "MILES",
+    "timeStamp": "2024-10-22 12:49:15"
+  },
+  {
+    "deviceUserId": "1028",
+    "userName": "ANGELICA",
+    "timeStamp": "2024-10-22 12:50:33"
+  },
+  {
+    "deviceUserId": "5005",
+    "userName": "ERIKA",
+    "timeStamp": "2024-10-22 12:52:08"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-22 12:52:54"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-22 12:52:57"
+  },
+  {
+    "deviceUserId": "5011",
+    "userName": "VINCENT",
+    "timeStamp": "2024-10-22 12:53:29"
+  },
+  {
+    "deviceUserId": "3",
+    "userName": "3",
+    "timeStamp": "2024-10-22 12:54:19"
   }
 ]
