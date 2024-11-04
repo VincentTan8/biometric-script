@@ -23,10 +23,10 @@ async function run() {
 
     // await biometric.addUser('9999', "IT Test", 1234567890)
 
-    // await biometric.deleteUser('82')
-    
+    // await biometric.deleteUser('68')
+
     //uid of existing user is needed to edit
-    // await biometric.editUser('21','5011', 'VINCENT', 2714852516) 
+    // await biometric.editUser('9','4015', 'AKEYLA', 3247651491) 
     //    .catch(err => {
     //     console.error('Unhandled error in editUser:', err)
     // })
@@ -46,9 +46,13 @@ async function run() {
 
     //OSEA ids only
     //Cess 1008, John 1009, Rendel 1011, Cristine 5001, Rodel 5004, Miles 5008, Jicoy 5010, Vincent 5011, Harry 5012, Ira 5013 
-    //const oseaIDs = ["1008", "1009", "1011", "5001", "5004", "5008", "5010", "5011", "5012", "5013"]
-    // const oseaMembers = ["Cess", "John", "Rendel", "Cristine", "Rodel", "Miles", "Jicoy", "Vincent", "Harry", "Ira"]
+    //const allIDs = ["1008", "1009", "1011", "5001", "5004", "5008", "5010", "5011", "5012"]
+    // const oseaMembers = ["Cess", "John", "Rendel", "Cristine", "Rodel", "Miles", "Jicoy", "Vincent", "Harry"]
     
+    //Keykea ids only
+    //Akeyla, Francis, Erika, Denny, Paul, Andy, Maechelle, Hubert, Eunice
+    // const allIDs = ["4015", "5003", "5005", "5006", "5007", "4011", "4008", "4009", "4003"]
+
     //get all unique IDs
     const allIDs = []
     userJson.forEach(user => {
@@ -69,8 +73,8 @@ async function run() {
 
     //get first and last log of each user
     let allFAL = []
-    let startDate = new Date("10/08/2024") // MM/DD/YYYY 00:00:00
-    let endDate = new Date("10/25/2024") // MM/DD/YYYY day before endDate will be taken
+    let startDate = new Date("10/11/2024") // MM/DD/YYYY 00:00:00
+    let endDate = new Date() // MM/DD/YYYY day before endDate will be taken if set
     allIDs.forEach(id => {
         const userLogs = allLogs.filter(log => log.deviceUserId === id)
         const firstAndLast = biometric.getFirstAndLastLogPerDay(userLogs, startDate, endDate)
