@@ -56,8 +56,8 @@ class Bio {
         // this.zkInstances.clearAttendanceLog()
         
         // Get the device time
-        const getTime = await this.zkInstance.getTime()
-        console.log("Time now is: " + getTime.toString())
+        // const getTime = await this.zkInstance.getTime()
+        // console.log("Time now is: " + getTime.toString())
 
         return logs
     }
