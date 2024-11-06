@@ -1,5 +1,5 @@
 const fs = require('fs')
-const ZKLib = require('./node_modules/node-zklib/zklib')
+const ZKLib = require('./node-zklib/zklib')
 
 class Bio {
     constructor(ip, port, timeout, inport) {
