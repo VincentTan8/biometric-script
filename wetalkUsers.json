@@ -28,7 +28,7 @@
     "role": 14,
     "password": "",
     "name": "DEL",
-    "cardno": 2090008537,
+    "cardno": 615507556,
     "userId": "1011"
   },
   {
@@ -244,7 +244,7 @@
     "role": 0,
     "password": "",
     "name": "601",
-    "cardno": 3445769646,
+    "cardno": 2039531593,
     "userId": "601"
   },
   {
@@ -617,7 +617,7 @@
   },
   {
     "uid": 78,
-    "role": 0,
+    "role": 14,
     "password": "",
     "name": "VINCENT",
     "cardno": 2081188313,
@@ -712,6 +712,14 @@
     "userId": "8"
   },
   {
+    "uid": 90,
+    "role": 0,
+    "password": "",
+    "name": "IT Test",
+    "cardno": 2714852516,
+    "userId": "9999"
+  },
+  {
     "uid": 91,
     "role": 0,
     "password": "",
@@ -726,5 +734,13 @@
     "name": "JOLIFE",
     "cardno": 0,
     "userId": "2062"
+  },
+  {
+    "uid": 93,
+    "role": 0,
+    "password": "",
+    "name": "RONI",
+    "cardno": 0,
+    "userId": "2065"
   }
 ]
