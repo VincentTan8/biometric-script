@@ -4,13 +4,16 @@ const XLSX = require('xlsx')
 
 async function run() {
     //Phihope
-    const biometric = new Bio('171.16.109.24', 4370, 10000, 4000)
-    const logsFileName = 'phihopeLogs.json'
-    const usersFileName = 'phihopeUsers.json'
+    // const biometric = new Bio('192.168.68.115', 4370, 10000, 4000)
+    // const logsFileName = 'phihopeLogs.json'
+    // const usersFileName = 'phihopeUsers.json'
     //Wetalk
-    // const biometric = new Bio('171.16.113.238', 4370, 10000, 4000)
-    // const logsFileName = 'wetalkLogs.json'
-    // const usersFileName = 'wetalkUsers.json'
+    const biometric = new Bio('192.168.68.104', 4370, 10000, 4000)
+    const logsFileName = 'wetalkLogs.json'
+    const usersFileName = 'wetalkUsers.json'
+    // const biometric = new Bio('192.168.68.118', 4370, 10000, 4000)
+    // const logsFileName = 'testLogs.json'
+    // const usersFileName = 'testUsers.json'
 
     await biometric.connect()
     
@@ -21,12 +24,12 @@ async function run() {
     })
     biometric.toJSON(logs.data, logsFileName)
 
-    // await biometric.addUser('9999', "IT Test", 1234567890)
+    // await biometric.addUser('9999', "IT Test", 2714852516)
 
     // await biometric.deleteUser('68')
 
     //uid of existing user is needed to edit
-    // await biometric.editUser('9','4015', 'AKEYLA', 3247651491) 
+    // await biometric.editUser('78','5011', 'VINCENT', 2081188313) 
     //    .catch(err => {
     //     console.error('Unhandled error in editUser:', err)
     // })
@@ -73,7 +76,7 @@ async function run() {
 
     //get first and last log of each user
     let allFAL = []
-    let startDate = new Date("10/11/2024") // MM/DD/YYYY 00:00:00
+    let startDate = new Date("10/26/2024") // MM/DD/YYYY 00:00:00
     let endDate = new Date() // MM/DD/YYYY day before endDate will be taken if set
     allIDs.forEach(id => {
         const userLogs = allLogs.filter(log => log.deviceUserId === id)
